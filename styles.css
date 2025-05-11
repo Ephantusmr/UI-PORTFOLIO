@@ -1,0 +1,251 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .navbar {
+    background: #0c1c24;
+    padding: 1em 2em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5em;
+  }
+  
+  .navbar ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+  }
+  
+  .navbar a.btn {
+    background: #00b894;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em 2em;
+    background: #0c1c24;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 2em;
+  }
+  
+  .hero-text h2 {
+    font-size: 2.5em;
+    color: #00b894;
+  }
+  
+  .hero-text span {
+    color: white;
+  }
+  
+  .hero-text p {
+    margin: 1em 0;
+    max-width: 500px;
+  }
+  
+  .hero .btn, .btn {
+    background: #00b894;
+    color: white;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 30px;
+    margin-right: 1em;
+  }
+  
+  .btn-outline {
+    background: none;
+    border: 2px solid #00b894;
+    color: #00b894;
+  }
+  
+  .hero-image img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .bio {
+    display: flex;
+    padding: 3em 2em;
+    gap: 2em;
+    align-items: center;
+  }
+  
+  .bio-info h3 {
+    margin-bottom: 0.5em;
+  }
+  
+  .bio .social-icons i {
+    font-size: 1.5em;
+    margin-right: 1em;
+    color: #00b894;
+  }
+  
+  .services {
+    background: #f7f7f7;
+    padding: 3em 2em;
+    text-align: center;
+  }
+  
+  .services .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 2em;
+  }
+  
+  .card {
+    background: white;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 250px;
+  }
+  
+  .card i {
+    font-size: 2em;
+    color: #00b894;
+    margin-bottom: 1em;
+  }
+  
+  .more-link {
+    display: inline-block;
+    margin-top: 1em;
+    color: #00b894;
+  }
+  
+  .skills {
+    padding: 3em 2em;
+    text-align: center;
+  }
+
+  .skills-progress {
+    display: flex;
+    padding: 3em 2em;
+    gap: 2em;
+    align-items: flex-start;
+  }
+  
+  .skills-progress .skills-img img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .skills-bars {
+    flex: 1;
+  }
+  
+  .skills-bars .bar {
+    margin-bottom: 1em;
+  }
+  
+  .skills-bars label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .progress {
+    background: #eee;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    background: #00b894;
+    height: 8px;
+    transition: width 0.5s ease;
+  }
+  
+  .extra-services {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 2em;
+    align-items: center;
+    background: #f5f5f5;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    flex: 1;
+  }
+  
+  .services-grid div {
+    text-align: center;
+  }
+  
+  .services-grid i {
+    font-size: 1.5em;
+    color: #00b894;
+    margin-bottom: 0.5em;
+  }
+  
+  .profile-right {
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 2em;
+    text-align: center;
+  }
+  
+  .stat-box h3 {
+    font-size: 2em;
+    color: #00b894;
+  }
+  
+  .portfolio-gallery {
+    padding: 3em 2em;
+    background: #f7f7f7;
+    text-align: center;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+    margin-top: 2em;
+  }
+  
+  .gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .client-logos {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background: #2c7a69;
+  }
+  
+  .client-logos img {
+    height: 40px;
+    filter: brightness(1000%);
+  }
+  
